@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev" : "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "author": "michael",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21",
     "nodemon": "^3.1.0"
-  }
+  },
+  "keywords": [],
+  "type": "module"
 }
