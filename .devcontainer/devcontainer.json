@@ -21,8 +21,12 @@
 
 	"postCreateCommand": "apt-get update && apt-get install -y npm",
 
-	"extensions": [
-        "cweijan.vscode-mysql-client2",
-		"humao.rest-client"
-	]
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"cweijan.vscode-mysql-client2",
+				"humao.rest-client"
+			]
+		}
+	}
 }
